@@ -1,14 +1,14 @@
 [
     {
         "name": "Lumi",
-        "image": "",
+        "image": "https://placehold.co/600x400",
         "tags": [
             "HTML5",
             "CSS3",
             "JavaScript",
             "OpenWeather API"
         ],
-        "cloudflare": "",
-        "github": ""
+        "cloudflare": "https://example.com",
+        "github": "https://github.com"
     }
 ]
