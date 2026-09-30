@@ -5,11 +5,32 @@ import Project from "./components/Project";
 function App() {
   return (
     <main>
-      <h1>My Portfolio</h1>
+      <nav className="navbar">
+        <a href="#home" className="logo">Alicia</a>
 
-      {data.map((project) => (
-        <Project key={project.name} project={project} />
-      ))}
+        <div className="nav-links">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <header className="hero" id="home">
+        <p className="hero-greeting">Hello, I'm</p>
+        <h1>Alicia</h1>
+        <p className="hero-description">
+          A front-end developer in training, creating friendly and thoughtful web experiences.
+        </p>
+      </header>
+
+      <section className="projects" id="projects">
+        <h2>My Projects</h2>
+
+        {data.map((project) => (
+          <Project key={project.name} project={project} />
+        ))}
+      </section>
     </main>
   );
 }
