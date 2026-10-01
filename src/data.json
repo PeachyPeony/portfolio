@@ -1,12 +1,22 @@
 [
     {
         "name": "Lumi",
-        "image": "https://placehold.co/600x400",
+        "image": "/src/assets/lumi.png",
         "tags": [
             "HTML5",
             "CSS3",
             "JavaScript",
             "OpenWeather API"
+        ],
+        "cloudflare": "https://lumi-weather-app.pages.dev/",
+        "github": "https://github.com/PeachyPeony/lumi-weather-app"
+    },
+    {
+        "name": "Placeholder Project",
+        "image": "https://placehold.co/600x400",
+        "tags": [
+            "HTML5",
+            "CSS3"
         ],
         "cloudflare": "https://example.com",
         "github": "https://github.com"

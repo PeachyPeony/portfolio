@@ -106,6 +106,10 @@ h1 {
   line-height: 1.6;
 }
 
+.projects {
+  margin-top: 64px;
+}
+
 .projects h2 {
   margin: 0 0 24px;
   color: #2e3a4b;
@@ -140,4 +144,78 @@ h1 {
 
 .nav-links a:hover {
   color: #8f7ae5;
+}
+
+.about {
+  margin-top: 64px;
+  padding: 40px 24px;
+  background-color: #ffece3;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.about h2 {
+  margin: 0 0 16px;
+  color: #2e3a4b;
+  font-size: 32px;
+}
+
+.about p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #5f6875;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.contact {
+  margin-top: 64px;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin: 0 0 16px;
+  color: #2e3a4b;
+  font-size: 32px;
+}
+
+.contact p {
+  margin: 0 auto 24px;
+  color: #5f6875;
+  font-size: 17px;
+}
+
+.contact a {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background-color: #8f7ae5;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact a:hover {
+  background-color: #765fcf;
+  transform: translateY(-2px);
+}
+
+.project-grid {
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 16px;
+  }
 }

@@ -26,10 +26,24 @@ function App() {
 
       <section className="projects" id="projects">
         <h2>My Projects</h2>
+        <div className="project-grid">
+          {data.map((project) => (
+            <Project key={project.name} project={project} />
+          ))}
+        </div>
+      </section>
 
-        {data.map((project) => (
-          <Project key={project.name} project={project} />
-        ))}
+      <section className="about" id="about">
+        <h2>About Me</h2>
+        <p>I'm a front-end developer in training who enjoys creating clean,
+          friendly, and user-friendly websites.
+        </p>
+      </section>
+
+      <section className="contact" id="contact">
+        <h2>Let's Connect</h2>
+        <p>Interested in working together or just want to say hello?</p>
+        <a href="mailto:hello@example.com">Get in touch</a>
       </section>
     </main>
   );
