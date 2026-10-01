@@ -12,13 +12,13 @@
         "github": "https://github.com/PeachyPeony/lumi-weather-app"
     },
     {
-        "name": "Placeholder Project",
-        "image": "https://placehold.co/600x400",
+        "name": "Cozy Kettle | Tea Shop",
+        "image": "/src/assets/cozy-kettle.png",
         "tags": [
             "HTML5",
             "CSS3"
         ],
-        "cloudflare": "https://example.com",
-        "github": "https://github.com"
+        "cloudflare": "https://cozy-kettle-tea-shop.pages.dev/",
+        "github": "https://github.com/PeachyPeony/Cozy-Kettle-Tea-Shop"
     }
 ]
