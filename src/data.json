@@ -20,5 +20,16 @@
         ],
         "cloudflare": "https://cozy-kettle-tea-shop.pages.dev/",
         "github": "https://github.com/PeachyPeony/Cozy-Kettle-Tea-Shop"
+    },
+    {
+        "name": "The Tactics Board",
+        "image": "/src/assets/tactics-board.png",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        "cloudflare": "https://the-tactics-board.pages.dev/",
+        "github": "https://github.com/PeachyPeony/the-tactics-board"
     }
 ]
