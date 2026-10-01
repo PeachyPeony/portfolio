@@ -1,7 +1,7 @@
 [
     {
         "name": "Lumi",
-        "image": "/src/assets/lumi.png",
+        "image": "/assets/lumi.png",
         "tags": [
             "HTML5",
             "CSS3",
@@ -13,7 +13,7 @@
     },
     {
         "name": "Cozy Kettle | Tea Shop",
-        "image": "/src/assets/cozy-kettle.png",
+        "image": "/assets/cozy-kettle.png",
         "tags": [
             "HTML5",
             "CSS3"
@@ -23,7 +23,7 @@
     },
     {
         "name": "The Tactics Board",
-        "image": "/src/assets/tactics-board.png",
+        "image": "/assets/tactics-board.png",
         "tags": [
             "HTML5",
             "CSS3",
