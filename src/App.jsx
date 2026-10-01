@@ -17,11 +17,24 @@ function App() {
       </nav>
 
       <header className="hero" id="home">
-        <p className="hero-greeting">Hello, I'm</p>
-        <h1>Alicia</h1>
-        <p className="hero-description">
-          A front-end developer in training, creating friendly and thoughtful web experiences.
-        </p>
+        <div className="hero-content">
+          <p className="hero-greeting">HI, I'M ALICIA</p>
+          <h1>Front-End<br />Developer</h1>
+          <p className="hero-description">
+            I’m a front-end developer in training who enjoys creating clean, responsive and user-friendly web experiences. Here are a few projects I’ve worked on and a little about me.
+          </p>
+          <a href="#projects" className="hero-button">
+            View My Projects
+            <span>→</span>
+          </a>
+        </div>
+
+        <div className="hero-art" aria-hidden="true">
+          <div className="hero-lavender"></div>
+          <div className="hero-pink"></div>
+          <div className="hero-green"></div>
+          <div className="hero-orange"></div>
+        </div>
       </header>
 
       <section className="projects" id="projects">
