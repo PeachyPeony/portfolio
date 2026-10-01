@@ -35,8 +35,12 @@ function App() {
 
       <section className="about" id="about">
         <h2>About Me</h2>
-        <p>I'm a front-end developer in training who enjoys creating clean,
-          friendly, and user-friendly websites.
+        <p>
+          I'm a front-end developer in training who enjoys creating clean, friendly,
+          and user-friendly websites. I like turning ideas into responsive interfaces
+          and paying attention to the small details that make a website feel clear
+          and enjoyable to use. I'm currently developing my skills in front-end
+          development through hands-on projects and continuous learning.
         </p>
       </section>
 
